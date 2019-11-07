@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../public/fonts/anton-regular-webfont.woff") format("woff");
+  src: url("../../public/fonts/anton-regular-webfont.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Anton", sans-serif;
+}
+
+html {
+  background-color: lightgoldenrodyellow;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
